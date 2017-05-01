@@ -1,1 +1,2 @@
-# taller-angular2
+# taller-angular
+taller de Angular para Vector Academy

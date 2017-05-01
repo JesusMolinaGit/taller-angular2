@@ -1,0 +1,26 @@
+<section class="view-detail">
+   
+        <p>Nombre: <input type="text" name="name" value="" ng-model="viewDetail.name"></p>
+        
+        <p>Email:  <input type="email" name="email" value="" ng-model="viewDetail.email"></p>
+        
+        <p>Seleccione un personaje:</p>
+        <div class="radio">
+            <img src="app/styles/imgs/avatar1.jpg" alt="" class="image">
+            <input type="radio" name="avatar" value="avatar1" ng-model="viewDetail.avatar">
+        </div>
+        <div class="radio">
+            <img src="app/styles/imgs/avatar2.jpg" alt="" class="image">
+            <input type="radio" name="avatar" value="avatar2" ng-model="viewDetail.avatar">
+        </div>
+        <div class="radio">
+            <img src="app/styles/imgs/avatar3.jpg" alt="" class="image">
+            <input type="radio" name="avatar" value="avatar3" ng-model="viewDetail.avatar">
+        </div>
+        <div class="radio">
+            <img src="app/styles/imgs/avatar4.jpg" alt="" class="image">
+            <input type="radio" name="avatar" value="avatar4" ng-model="viewDetail.avatar">
+        </div>
+        <br>
+        <input type="button" name="" value="Empezar" id="begin" ng-click="viewDetail.goToGame()" class="button">
+</section>
