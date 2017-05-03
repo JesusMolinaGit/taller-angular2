@@ -1,7 +1,6 @@
 <article class="list-cards">
     <cards-card
     ng-repeat="item in cardsList.allCards" 
-    item-card="item"
-    ng-click="cardsList.toRotate()">
+    item-card="item" ng-click="cardsList.cambiar()" id="matrix">
     </cards-card>
 </article>

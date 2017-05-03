@@ -4,24 +4,20 @@
     templateUrl:  'app/components/detail/view-detail-template.html',
     controller:  ['$state',viewDetail],
     controllerAs: 'viewDetail',
-    bindings:{
-      avatar: "<",
-      name: "<",
-      email: "<"
+    bindings: {
+      name: '@',
+      email: '@',
+      avatar: '@'
     }
   });
 
   function viewDetail($state) {
     var vm = this;
+    var name = vm.name;
 
-  vm.goToGame = function(){
-
-     if(!vm.avatar&&!vm.name&&!vm.email){
-        alert("Los campos no pueden estar vacios");
-     }else{
-       $state.go('game');
-     }
-      
+    vm.goToGame = function(){
+      console.log(vm.name);
+      $state.go('game');
 
     };
   }

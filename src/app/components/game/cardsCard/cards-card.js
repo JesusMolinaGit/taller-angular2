@@ -11,6 +11,11 @@
 
   function cardsCard() {
     var vm = this;
+
+    
+    vm.volver = function(){
+      document.getElementById('matrix').src = "reverso.png";
+    }
   }
 
 })(angular);

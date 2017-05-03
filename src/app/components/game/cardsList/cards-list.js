@@ -13,11 +13,11 @@
   function cardsList(cardsFactory) {
     var vm = this;
 
-    vm.toRotate = function(){
-      console.log(vm.id);
-    }
     vm.$onInit = function() {
       vm.allCards = cardsFactory.getAllCards();
+    };
+    vm.cambiar = function(){
+      document.getElementById('matrix').src = "app/styles/imgs/oros5.jpg";
     };
   }
 

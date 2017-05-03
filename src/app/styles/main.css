@@ -91,3 +91,16 @@ h1 {
     text-transform: none; 
     word-spacing: -2px;
 }
+
+input[type="text"]{
+    background: silver;
+   border: 1px solid #393939;
+   border-radius: 5px 5px 5px 5px;
+   color: #393939;
+   font-size: 12px;
+   padding: 5px;
+}
+p{
+    font-style: italic; 
+}
+

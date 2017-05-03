@@ -33,7 +33,7 @@
     var about = {
       name:'aboutUs',
       url: '/aboutUs',
-      template: '<h3>About Us: work in progress</h3>'
+      template: '<h3 style="text-align:center">About Us: work in progress</h3>'
     };
 
     $stateProvider.state(main);
